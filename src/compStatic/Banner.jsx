@@ -9,10 +9,8 @@ const Banner = () => {
     return (
         <>
         <header className='banner'>
-            <img src = {bannerImg} className= 'banner__Bg'/>
-           
-                <img src = {bannerPic} className= 'banner__Pic' />
-           
+            <img src = {bannerImg} className= 'banner__Bg'/>          
+            <img src = {bannerPic} className= 'banner__Pic' />        
         </header>
         </>
             );

@@ -1,18 +1,34 @@
-
+body{
+  background-color: #b1bbc8;
+}
 .banner {
-  min-width: 100vh ; 
+  min-width: 99vw ; 
   max-height:30vh;
+  min-height: 30vh;
 }
 
 .banner__Bg{
- width: 105vh;
+ width: 99vw;
  max-height:30vh;
-}
-  
-.banner__Pic{
+ min-height: 30vh;
+} 
+
+.banner__PicText{
+  max-height: 17vh;
+  min-height: 10vh;
   position: absolute;
-  top: 3vh;
-  right: 44vh;
-  width: 15vh;
-  height: 15vh;
+  top: 7vh;
+  width: 99vw;
+  height:20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner__Text{
+  position: absolute;
+  top: 18vh;
+  text-align: center;
+  color: #536e8f;
+  font-weight: bold;
 }

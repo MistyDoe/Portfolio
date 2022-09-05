@@ -9,8 +9,15 @@ const Banner = () => {
     return (
         <>
         <header className='banner'>
-            <img src = {bannerImg} className= 'banner__Bg'/>          
-            <img src = {bannerPic} className= 'banner__Pic' />        
+            <img src = {bannerImg} className= 'banner__Bg'/>
+            <div className= 'banner__PicText'>          
+                <img src = {bannerPic} className= 'banner_Pic'  /> 
+                <div className='banner__Text'>
+                    Hi! <br />
+                    My name is Migle
+                </div>
+            </div>
+                   
         </header>
         </>
             );

@@ -2,13 +2,13 @@ body{
   background-color: #b1bbc8;
 }
 .banner {
-  min-width: 99vw ; 
+  min-width: 100vw ; 
   max-height:30vh;
   min-height: 30vh;
 }
 
 .banner__Bg{
- width: 99vw;
+ width: 100vw;
  max-height:30vh;
  min-height: 30vh;
 } 
@@ -32,6 +32,42 @@ body{
   color: #536e8f;
   font-weight: bold;
 }
-.AboutMe{
- padding-top: 40hw; 
+.NavigationBar{
+min-width: 100vh;
+max-height: 15vh;
+display: flex; 
+min-height: 6vh;;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+background-color: #9897ad ;
+font-size: larger;
+font-weight: bolder;
 }
+.Content{
+  display: flex;
+  padding-top: 8vh;
+  flex-direction: row;
+  
+}
+
+.Content__SquareShape{
+  z-index: 3;
+  margin-left: -3vw;
+  background-color: #8C9BAE;
+  color: #FFFFFF;
+}
+
+  .Content__RoundShape{
+    margin-top: 2vh;
+    margin-left: 5vw;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #D9D9D9;
+  }
+  .Content__RoundText{
+    margin-top: 5vh;
+    margin-left: 2vw;
+    color: #536E8F;
+  }

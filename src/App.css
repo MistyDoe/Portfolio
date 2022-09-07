@@ -18,7 +18,7 @@ body{
   max-height: 17vh;
   min-height: 10vh;
   position: absolute;
-  top: 7vh;
+  top: 5vh;
   width: 99vw;
   height:20vh;
   display: flex;
@@ -28,43 +28,99 @@ body{
 
 .banner__Text{
   position: absolute;
-  top: 18vh;
+  top: 17vh;
   text-align: center;
   color: #536e8f;
   font-weight: bold;
 }
 .NavigationBar{
-min-width: 100vh;
-max-height: 15vh;
-display: flex; 
-min-height: 6vh;;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-background-color: #9897ad ;
-font-size: larger;
-font-weight: bolder;
+  min-width: 100vh;
+  max-height: 15vh;
+  display: flex;
+  min-height: 6vh;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: #9897ad;
+  font-size: larger;
+  font-weight: bolder;
+  flex-direction: row;
+}
+.NavigationBar__NavButton{
+background-color: #9897ad;
+border: #9897ad;
+width: 20%;
 
+}
+.NavigationBar__NavButton:hover{
+  background-color: #8C9BAE;
+}
+.NavigationBar__Link{
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+.NavigationBar__Link:visited{
+  text-decoration: none;
 }
 .Layout{
  display: flex;
- margin-top: 15vh;
+ margin-top: 10vh;
+ flex-direction: column;
 }
 .Content{
   max-width: 70vw;
   margin: auto;
+  margin-top: 5vh;
   background-color: #8C9BAE;
   padding-top: 2vh;
   padding-bottom: 2vh;
   padding-left: 5vw;
   padding-right: 3vw;
   border-radius: 20px;
- 
- 
+  display: flex;
 }
 .Content__text{
   margin-top: 3vh;
   margin-left: 2vw;
   color: #FFFFFF;
+
+}
+.ContentTech{
+  display: flex;
+  flex-direction: row;
+  }
+.Content__Languages, .Content__Frontend, 
+.Content__Backend, .Content__Other{
+  display: flex;
+  padding: 0%;
+  margin-left: 2vw;
+  margin-top: 3vh;
   text-align: center;
+  list-style-type: none;
+}
+ul{
+}
+.circle{
+  margin-left: -9vw;
+ 
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #D9D9D9;
+}
+.circle__Abtme{
+  margin-left: -7vw;
+  border-radius: 50%;
+  height: 150px;
+  width: 220px;
+  background-color: #D9D9D9;
+}
+
+h2{
+  text-align: center;
+  padding-top: 3.5vh;
+  font-size: 15px;  
+}
+.Title__AboutMe{
+  padding-top: 7vh;
 }

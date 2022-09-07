@@ -8,6 +8,9 @@ const AboutMe = () => {
         <Banner/>
         <div className='Layout'>
         <div className='Content'>
+        <div className='circle__Abtme'>
+                <h2 className='Title__AboutMe'>About Me</h2> 
+                </div>
            <p className='Content__text'>
            
 I am from Södertälje, where I live with my partner and two adorable kittens Ymir and Silver. <br/>

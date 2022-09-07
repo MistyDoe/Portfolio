@@ -6,22 +6,19 @@ const AboutMe = () => {
     return (
         <>
         <Banner/>
+        <div className='Layout'>
         <div className='Content'>
-            <br/>
-            <div className='Content__RoundShape'>
-            <p className="Content__RoundText"> 
-            About me
-            </p>
-            </div>
-            <div className='Content__SquareShape'>
-                <p>
-                    Content
-                </p>
-            </div>
-            {/* <p className='Content__SquareTextComp'>
-            I recently graduated from .Net bootcamp. Before career switch I was planing a career in academia within infectious disease modeling area. I have studied indectious disease control, health informatics, bioinforamtics and public health. Though my studeis i developed a knowlage base and interest in mathematics and machine learning. 
-
-            </p> */}
+           <p className='Content__text'>
+           
+I am from Södertälje, where I live with my partner and two adorable kittens Ymir and Silver. <br/>
+I recently graduated from the full stack .Net boot camp offered by Salt. 
+Before my career switch, I was planning a career in academia within the infectious disease modeling area. 
+I have studied infectious disease control, health informatics, bioinformatics, and public health. <br/>
+Through my studies, I developed a knowledge base and interest in mathematics and machine learning.
+Nowadays I am continuing to improve my skill set as a developer, in machine learning, and data sciences. <br/>  
+I have an interest in healthcare and finance domains.
+           </p>
+        </div>
         </div>
         </>
 

@@ -22,7 +22,8 @@ const Banner = () => {
                 <img src = {bannerPic} className= 'banner_Pic'  /> 
                 <div className='banner__Text'>
                     Hi! <br />
-                    My name is Migle and i am a software developer.
+                    My name is Migle <br/>  
+                    I am a software developer.
                 </div>
             </div>                   
         <nav className='NavigationBar'>

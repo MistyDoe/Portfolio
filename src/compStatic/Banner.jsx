@@ -26,10 +26,18 @@ const Banner = () => {
                 </div>
             </div>                   
         <nav className='NavigationBar'>
-            <Link to ="/aboutme" className='NavigationBar__NavButton'> About me</Link>
-            <Link to = "/teckstack" className='NavigationBar__NavButton'> Teck Stack</Link>
-            <Link to = "/projects" className='NavigationBar__NavButton'> Projects</Link>
-            <Link to = "/contactme" className='NavigationBar__NavButton'> Contact Me</Link>
+            <button  className='NavigationBar__NavButton'>
+            <Link to ="/aboutme" className='NavigationBar__Link'> About me</Link>
+            </button>
+            <button  className='NavigationBar__NavButton'>
+            <Link to = "/teckstack" className='NavigationBar__Link' > Teck Stack</Link>
+            </button>
+            <button className='NavigationBar__NavButton'>
+            <Link to = "/projects" className='NavigationBar__Link'> Projects</Link>
+            </button>
+            <button  className='NavigationBar__NavButton'>
+            <Link to = "/contactme" className='NavigationBar__Link'> Contact Me</Link>
+            </button>
             </nav> 
 
         </header>

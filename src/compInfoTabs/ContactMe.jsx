@@ -10,7 +10,7 @@ const ContactMe = () => {
         <Banner/>
         <div className='Layout'>
         <div className='Content'>
-        <div className='circle circle__Cont'>
+        <div className='circle__Cont'>
                 <h2 className='Title__AboutMe'>Contact info</h2> 
                 </div>
            <p className='Content__bttn'>

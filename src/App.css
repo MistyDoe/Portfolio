@@ -127,8 +127,12 @@ h2{
 
 }
 .circle__Cont{
-  margin-top: 4vh;
-  
+  margin-top: 4vh;  
+}
+.circle__Proj{
+  margin-top: 8vh;
+  height: 100px;
+  width: 200px;
 }
 .Content__bttn{
   display: flex;
@@ -159,4 +163,6 @@ h2{
 .Content__Email{
   display: block;
 }
-
+.video{
+  margin: 2vh;
+}

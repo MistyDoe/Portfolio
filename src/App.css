@@ -38,7 +38,7 @@ body{
   max-height: 15vh;
   display: flex;
   min-height: 6vh;
-  justify-content: space-around;
+  justify-content:space-evenly;
   align-items: stretch;
   background-color: #9897ad;
   font-size: larger;
@@ -46,21 +46,16 @@ body{
   flex-direction: row;
 }
 .NavigationBar__NavButton{
+text-align:center;
+margin-top: 1vh;
 background-color: #9897ad;
 border: #9897ad;
 width: 20%;
-
+text-decoration: none;
+color: #FFFFFF;
 }
 .NavigationBar__NavButton:hover{
   background-color: #8C9BAE;
-}
-.NavigationBar__Link{
-  text-decoration: none;
-  color: #FFFFFF;
-
-}
-.NavigationBar__Link:visited{
-  text-decoration: none;
 }
 .Layout{
  display: flex;
@@ -68,7 +63,7 @@ width: 20%;
  flex-direction: column;
 }
 .Content{
-  max-width: 70vw;
+  max-width: 60vw;
   margin: auto;
   margin-top: 5vh;
   background-color: #8C9BAE;
@@ -80,6 +75,7 @@ width: 20%;
   display: flex;
 }
 .Content__text{
+  max-width: 70vw;
   margin-top: 3vh;
   margin-left: 2vw;
   color: #FFFFFF;
@@ -98,21 +94,20 @@ width: 20%;
   text-align: center;
   list-style-type: none;
 }
-ul{
-}
+
 .circle{
-  margin-left: -9vw;
- 
+  margin-left: -8vw;
   border-radius: 50%;
   height: 100px;
   width: 100px;
   background-color: #D9D9D9;
 }
 .circle__Abtme{
-  margin-left: -7vw;
+  margin-left: -8vw;
+  margin-top: 5vh;
   border-radius: 50%;
-  height: 150px;
-  width: 220px;
+  height: 100px;
+  width: 210px;
   background-color: #D9D9D9;
 }
 
@@ -122,5 +117,66 @@ h2{
   font-size: 15px;  
 }
 .Title__AboutMe{
-  padding-top: 7vh;
+padding-top: 3.5vh;
+
+}
+.circle__Cont{
+  margin-top: 4vh;
+  margin-left: -8vw;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #D9D9D9;  
+}
+.circle__Proj{
+  margin-top: 4vh;
+  height: 100px;
+  width: 150px;
+}
+.Content__bttn{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+  text-align: center;
+}
+.bttn{
+  background-color: #536e8f;
+  border: #536e8f;
+  color: #D9D9D9;
+  margin-top: 1vh;
+  min-width: 20px;
+  text-align: center;
+
+}
+.bttn:visited{
+  text-decoration: none;
+}
+.bttn{
+  display: inline-block;
+  text-decoration: none;
+  z-index: 2;
+  padding: 1vh;
+  margin: 1vh;
+  width: 20vh;
+}
+.Content__Email{
+  display: block;
+}
+.video{
+ margin-left: -5vh;
+}
+.Layout__Proj{
+  display: flex;
+  flex-direction: row;
+}
+.Proj__text{
+  max-width: 70vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  color: #FFFFFF;
+}
+.Proj__bttn{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }

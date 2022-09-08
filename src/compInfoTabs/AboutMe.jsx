@@ -15,7 +15,7 @@ const AboutMe = () => {
            
 I am from Södertälje, where I live with my partner and two adorable kittens Ymir and Silver. <br/>
 I recently graduated from the full stack .Net boot camp offered by Salt. 
-Before my career switch, I was planning a career in academia within the infectious disease modeling area. 
+<br/>Before my career switch, I was planning a career in academia within the infectious disease modeling area. 
 I have studied infectious disease control, health informatics, bioinformatics, and public health. <br/>
 Through my studies, I developed a knowledge base and interest in mathematics and machine learning.
 Nowadays I am continuing to improve my skill set as a developer, in machine learning, and data sciences. <br/>  

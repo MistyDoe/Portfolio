@@ -11,11 +11,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter basename='Portfolio'>
     <Routes>
-      <Route path = "/" element = {<AboutMe/>}/>
-      <Route path = "/aboutme" element = {<AboutMe/>}/>
-      <Route path = "/teckstack" element = {<TechStack />}/>
-      <Route path = "/projects" element = {<Projects />}/>
-      <Route path = "/contactme" element = {<ContactMe />}/>
+      <Route path = "#/" element = {<AboutMe/>}/>
+      <Route path = "#/aboutme" element = {<AboutMe/>}/>
+      <Route path = "#/teckstack" element = {<TechStack />}/>
+      <Route path = "#/projects" element = {<Projects />}/>
+      <Route path = "#/contactme" element = {<ContactMe />}/>
     </Routes>
   </HashRouter>
 

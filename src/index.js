@@ -9,7 +9,7 @@ import ContactMe from './compInfoTabs/ContactMe';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
       <Route  exact path = "/" element = {<AboutMe/>}/>
       <Route path = "/aboutme" element = {<AboutMe/>}/>

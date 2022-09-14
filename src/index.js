@@ -9,9 +9,9 @@ import ContactMe from './compInfoTabs/ContactMe';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename='Portfolio'>
     <Routes>
-      <Route exact path = "/Portfolio" element = {<AboutMe/>}/>
+      <Route path = "/" element = {<AboutMe/>}/>
       <Route path = "/aboutme" element = {<AboutMe/>}/>
       <Route path = "/teckstack" element = {<TechStack />}/>
       <Route path = "/projects" element = {<Projects />}/>

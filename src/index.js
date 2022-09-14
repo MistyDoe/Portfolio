@@ -1,23 +1,18 @@
 import React from 'react';
+import App from './App';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, Route, Routes } from "react-router-dom";
-import AboutMe from './compInfoTabs/AboutMe';
-import TechStack from './compInfoTabs/TeckStack';
-import Projects from './compInfoTabs/Projects';
-import ContactMe from './compInfoTabs/ContactMe';
+import {HashRouter as Router, Routes, Route, Navigate, HashRouter} from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <HashRouter basename={process.env.PUBLIC_URL}>
-      <Routes>
-      <Route  exact path = "/" element = {<AboutMe/>}/>
-      <Route path = "/aboutme" element = {<AboutMe/>}/>
-      <Route path = "/teckstack" element = {<TechStack />}/>
-      <Route path = "/projects" element = {<Projects />}/>
-      <Route path = "/contactme" element = {<ContactMe />}/>
-      </Routes>
+  <React.StrictMode>
+    <HashRouter>
+  <App />
   </HashRouter>
+</React.StrictMode>   
+      
 
 );
 

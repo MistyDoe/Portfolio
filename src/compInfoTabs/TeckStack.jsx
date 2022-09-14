@@ -4,7 +4,7 @@ const TechStack = () => {
 
     return (
         <>
-        <Banner/>
+    
         <div className='Layout'>
 
             <div className='Content ContentTech'>

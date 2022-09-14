@@ -5,14 +5,13 @@ const AboutMe = () => {
 
     return (
         <>
-        <Banner/>
+        
         <div className='Layout'>
         <div className='Content'>
         <div className='circle__Abtme'>
                 <h2 className='Title__AboutMe'>About Me</h2> 
                 </div>
-           <p className='Content__text'>
-           
+           <p className='Content__text'>           
 I am from Södertälje, where I live with my partner and two adorable kittens Ymir and Silver. <br/>
 I recently graduated from the full stack .Net boot camp offered by Salt. 
 <br/>Before my career switch, I was planning a career in academia within the infectious disease modeling area. 

@@ -5,7 +5,7 @@ const Projects = () => {
 
     return (
         <>
-        <Banner/>
+     
         <div className='Layout Layout__Proj'>
         <div className='Content'>
         <div className='circle circle__Proj'>

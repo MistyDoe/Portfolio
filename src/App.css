@@ -32,6 +32,7 @@ body{
   text-align: center;
   color: #536e8f;
   font-weight: bold;
+  font-size: 25px;
 }
 .NavigationBar{
   min-width: 100vh;
@@ -41,12 +42,12 @@ body{
   justify-content:space-evenly;
   align-items: stretch;
   background-color: #9897ad;
-  font-size: larger;
   font-weight: bolder;
   flex-direction: row;
 }
 .NavigationBar__NavButton{
 text-align:center;
+font-size: 30px;
 margin-top: 1vh;
 background-color: #9897ad;
 border: #9897ad;
@@ -76,15 +77,16 @@ color: #FFFFFF;
 }
 .Content__text{
   max-width: 70vw;
-  margin-top: 3vh;
+  margin-top: 2vh;
   margin-left: 2vw;
   color: #FFFFFF;
-
+  font-size: 30px;
+  
 }
 .ContentTech{
   display: flex;
   flex-direction: row;
-  }
+}
 .Content__Languages, .Content__Frontend, 
 .Content__Backend, .Content__Other{
   display: flex;
@@ -96,7 +98,7 @@ color: #FFFFFF;
 }
 
 .circle{
-  margin-left: -8vw;
+  margin-left: -7vw;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -104,25 +106,27 @@ color: #FFFFFF;
 }
 .circle__Abtme{
   margin-left: -8vw;
-  margin-top: 5vh;
+  margin-top: 6vh ;
+  margin-bottom: 6vh;
   border-radius: 50%;
-  height: 100px;
-  width: 210px;
+  height: 10vh;
+  width: 20vh;
   background-color: #D9D9D9;
 }
 
 h2{
   text-align: center;
-  padding-top: 3.5vh;
-  font-size: 15px;  
+  padding-top: 2vh;
+  font-size: 20px;  
 }
 .Title__AboutMe{
-padding-top: 3.5vh;
-
+  padding-top: 2vh;
+  font-size: 20px;
+  
 }
 .circle__Cont{
   margin-top: 4vh;
-  margin-left: -8vw;
+  margin-left: -7vw;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -146,7 +150,7 @@ padding-top: 3.5vh;
   margin-top: 1vh;
   min-width: 20px;
   text-align: center;
-
+  
 }
 .bttn:visited{
   text-decoration: none;
@@ -158,12 +162,13 @@ padding-top: 3.5vh;
   padding: 1vh;
   margin: 1vh;
   width: 20vh;
+  font-size: 20px;
 }
 .Content__Email{
   display: block;
 }
 .video{
- margin-left: -5vh;
+  margin-left: -5vh;
 }
 .Layout__Proj{
   display: flex;
@@ -174,9 +179,41 @@ padding-top: 3.5vh;
   margin-top: 3vh;
   margin-left: 2vw;
   color: #FFFFFF;
+  font-size: 20px;
 }
 .Proj__bttn{
   display: flex;
   flex-direction: row;
   margin: auto;
+  font-size: 30px;
 }
+
+@media screen and (max-width:600px) { 
+  .banner__Text{
+    font-size: 15px;
+  }
+  .NavigationBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .NavigationBar__NavButton{
+    max-width: 23vw;
+    font-size: 17px;
+
+  }  
+  .Content {
+    max-width: 90vw;
+  }
+  .circle .circle__Abtme .circle__Cont .circle__Proj{
+    display: none;
+  }
+  
+  h2{
+    visibility: visible;
+  }
+  .Content__text{
+    font-size: 15px;
+  }
+
+} 

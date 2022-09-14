@@ -22,12 +22,9 @@ const Banner = () => {
                 </div>
             </div>                   
         <nav className='NavigationBar'>          
-            <Link to ="/aboutme" className='NavigationBar__NavButton'> About me</Link>
-           
-            <Link to = "/teckstack" className='NavigationBar__NavButton' > Teck Stack</Link>
-           
-            <Link to = "/projects" className='NavigationBar__NavButton'> Projects</Link>
-            
+            <Link to ="/aboutme" className='NavigationBar__NavButton'> About me</Link>          
+            <Link to = "/teckstack" className='NavigationBar__NavButton' > Teck Stack</Link>          
+            <Link to = "/projects" className='NavigationBar__NavButton'> Projects</Link>            
             <Link to = "/contactme" className='NavigationBar__NavButton'> Contact Me</Link>
            
             </nav> 

@@ -15,8 +15,7 @@ function App() {
     <Banner/> 
     <div> 
             <Routes>
-                <Route exact path = "/aboutme" element= {<AboutMe/>}/>
-                
+                <Route exact path = "/aboutme" element= {<AboutMe/>}/>              
                 <Route exact path = "/Porfolio" element = {<AboutMe/>}/>,
                 <Route exact path = "/aboutme" element = {<AboutMe/>}/>,
                 <Route exact path = "/teckstack" element = {<TechStack/> }/>,

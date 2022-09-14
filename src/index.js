@@ -12,10 +12,10 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path = "/Portfolio/" element = {<AboutMe/>}/>
-      <Route path = "/Portfolio/aboutme" element = {<AboutMe/>}/>
-      <Route path = "/Portfolio/teckstack" element = {<TechStack />}/>
-      <Route path = "/Portfolio/projects" element = {<Projects />}/>
-      <Route path = "/Portfolio/contactme" element = {<ContactMe />}/>
+      <Route path = "/aboutme" element = {<AboutMe/>}/>
+      <Route path = "/teckstack" element = {<TechStack />}/>
+      <Route path = "/projects" element = {<Projects />}/>
+      <Route path = "/contactme" element = {<ContactMe />}/>
     </Routes>
   </BrowserRouter>
 

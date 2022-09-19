@@ -13,16 +13,16 @@ function App() {
   return (
     <>
     <Banner/> 
-    <div> 
+    <div className='Outline'> 
             <Routes>
                 <Route exact path = "/aboutme" element= {<AboutMe/>}/>              
-                <Route exact path = "/Porfolio" element = {<AboutMe/>}/>,
+                <Route exact path = "/Porfolio/" element = {<AboutMe/>}/>,
                 <Route exact path = "/aboutme" element = {<AboutMe/>}/>,
                 <Route exact path = "/teckstack" element = {<TechStack/> }/>,
                 <Route exact path = "/projects" element = {<Projects/>}/>,
                 <Route exact path = "/contactme" element = {<ContactMe/> }/>
             </Routes>
-            </div>    
+   </div>    
     </>
 
   );

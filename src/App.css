@@ -1,17 +1,24 @@
+.Outline {
+  display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: center;
+}
 body{
   background-color: #b1bbc8;
- 
+  min-width: -webkit-fill-available; 
+  margin: 0px;
 }
 .banner {
   min-width: 100vw ; 
-  max-height:30vh;
-  min-height: 30vh;
+  max-height: 35vh;
+  min-height: 35vh;
 }
 
 .banner__Bg{
- width: 100vw;
- max-height:30vh;
- min-height: 30vh;
+ min-width: 100vw;
+ max-height:35vh;
+ min-height: 35vh;
 } 
 
 .banner__PicText{
@@ -32,7 +39,7 @@ body{
   text-align: center;
   color: #536e8f;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
 }
 .NavigationBar{
   min-width: 100vh;
@@ -62,11 +69,15 @@ color: #FFFFFF;
  display: flex;
  margin-top: 10vh;
  flex-direction: column;
+ min-width: 80vw;
+ max-width: 90vw;
+}
+.Layout__Tech{
+
 }
 .Content{
-  max-width: 60vw;
-  margin: auto;
-  margin-top: 5vh;
+  width: 60vw;
+  margin-top: 1vh;
   background-color: #8C9BAE;
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -75,17 +86,27 @@ color: #FFFFFF;
   border-radius: 20px;
   display: flex;
 }
+.Content__Tech{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  background-color: #8C9BAE;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  padding-right: 3vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+
+}
 .Content__text{
   max-width: 70vw;
-  margin-top: 2vh;
-  margin-left: 2vw;
+  margin-top: 3vh;
+  
   color: #FFFFFF;
   font-size: 25px;
   
-}
-.ContentTech{
-  display: flex;
-  flex-direction: row;
 }
 .Content__Languages, .Content__Frontend, 
 .Content__Backend, .Content__Other{
@@ -98,11 +119,18 @@ color: #FFFFFF;
 }
 
 .circle{
-  margin-left: -7vw;
+  margin-left: -8vw;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 10vw;
+  width: 10vw;
   background-color: #D9D9D9;
+  
+
+}
+.circle::after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 .circle__Abtme{
   margin-left: -8vw;
@@ -116,8 +144,8 @@ color: #FFFFFF;
 
 h2{
   text-align: center;
-  padding-top: 2vh;
-  font-size: 20px;  
+  padding-top: 4vh;
+  font-size: 18px;  
 }
 .Title__AboutMe{
   padding-top: 2vh;
@@ -167,9 +195,6 @@ h2{
 .Content__Email{
   display: block;
 }
-.video{
-  margin-left: -5vh;
-}
 .Layout__Proj{
   display: flex;
   flex-direction: row;
@@ -188,14 +213,18 @@ h2{
   font-size: 30px;
 }
 
-@media screen and (max-width:600px) { 
-  .banner__Text{
+@media screen and (max-width:480px) { 
+  .banner__Text {
     font-size: 15px;
   }
-  .NavigationBar{
+  .banner {
+    min-width: max-content;
+  }
+  .NavigationBar {
+    min-width: max-content;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content:space-evenly;
   }
   .NavigationBar__NavButton{
     max-width: 23vw;
@@ -203,17 +232,27 @@ h2{
 
   }  
   .Content {
+    min-width: 90vw;
+  
+  }
+  .Content__text {
     max-width: 90vw;
   }
-  .circle .circle__Abtme .circle__Cont .circle__Proj{
+  .Content__Backend{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+  }
+  .circle {
     display: none;
   }
   
-  h2{
-    visibility: visible;
-  }
-  .Content__text{
+  .Content__text, .Proj__text{
     font-size: 15px;
+    text-align: center;
   }
 
 } 
+@media screen and (min-width: 1200px){
+  
+}

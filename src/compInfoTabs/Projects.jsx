@@ -6,9 +6,9 @@ const Projects = () => {
     return (
         <>
      
-        <div className='Layout Layout__Proj'>
+        <div className='Layout'>
         <div className='Content'>
-        <div className='circle circle__Proj'>
+        <div className='circle '>
                 <h2 className='Title__AboutMe'>Student portal</h2> 
                 </div>
            <div className='Project__Content'>
@@ -18,6 +18,19 @@ A student portal to provide access to all the resources. Authentication is done 
                 <div className='Proj__Bttn'>               
                 <a className='bttn' href="https://github.com/cetinarslan-it/Salt-Iverse" target="_blank">GitHub</a>
                 <a className='bttn' href="https://youtu.be/2B3mXdnSOKU" target="_blank">Demo</a>
+                </div>
+              </div>           
+           </div>
+        </div> 
+        <div className='Content'>
+        <div className='circle '>
+                <h2 className='Title__AboutMe'>Portfolio page</h2> 
+                </div>
+           <div className='Project__Content'>
+            <div>
+              <p className='Proj__text'> A website for me to show my work in a centralized manner. Developed using React and hosted using GitHub pages.  </p>           
+                <div className='Proj__Bttn'>               
+                <a className='bttn' href="https://github.com/MistyDoe/Portfolio" target="_blank">GitHub</a>
                 </div>
               </div>           
            </div>

@@ -5,9 +5,8 @@ const TechStack = () => {
     return (
         <>
     
-        <div className='Layout'>
-
-            <div className='Content ContentTech'>
+        <div className='Layout Layout__tech'>
+            <div className='Content__Tech'>
             <div className='circle'>
                 <h2>Languages</h2> 
                 </div>
@@ -17,9 +16,9 @@ const TechStack = () => {
                     <li><img src={require("../Images/python.png")} title= 'Python' alt= 'python'></img></li>
                     </ul>
                     </div>
-                    <div className='Content'>
+                    <div className='Content__Tech'>
                     <div className='circle'>
-                <h2>Frontend</h2> 
+                <h2>Frontend</h2>
                 </div>
                 <ul className='Content__Frontend'>
                     <li><img src= {require("../Images/react.png" )} title= 'React' alt = 'React'></img></li>
@@ -27,12 +26,12 @@ const TechStack = () => {
                     <li> <img src = {require("../Images/html.png")} title= 'Html' alt = 'Html'></img></li>
                     </ul>
                 </div>
-                <div className='Content'>
+                <div className='Content__Tech'>
                 <div className='circle'>
                 <h2>Backend</h2> 
                 </div>
                     <ul className='Content__Backend'>
-                        <li><img src={require('../Images/asp.net.png')} title='Asp.Net' height = '40' width='40' alt= 'Asp.Net'></img></li>
+                        <li><img src={require('../Images/asp.net.png')} title='Asp.Net' height = '50' width='50' alt= 'Asp.Net'></img></li>
                         <li><img src={require('../Images/ef.png')} title= 'Entity Core' width='60' height='40' alt= 'Entity Core'></img></li>
                         <li><img src={require('../Images/mysql.png')} title = 'MySql Server' alt= 'MySql Server'></img></li>
                         <li><img src={require('../Images/SkLearn.png')} title= 'SciKitLearn' height='50' width='50' alt= 'SkLearn'></img></li>
@@ -45,7 +44,7 @@ const TechStack = () => {
                         
                     </div>
 
-                    <div className='Content'>
+                    <div className='Content__Tech'>
                     <div className='circle'>
                 <h2>Other</h2> 
                 </div>

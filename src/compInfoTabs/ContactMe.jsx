@@ -7,10 +7,9 @@ const ContactMe = () => {
 
     return (
         <>
-       
         <div className='Layout'>
         <div className='Content'>
-        <div className='circle__Cont'>
+        <div className='circle'>
                 <h2 className='Title__AboutMe'>Contact info</h2> 
                 </div>
            <p className='Content__bttn'>

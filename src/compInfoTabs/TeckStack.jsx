@@ -28,8 +28,9 @@ const TechStack = () => {
                 </div>
                 <div className='Content__Tech'>
                 <div className='circle'>
-                <h2>Backend</h2> 
+                <h2 className='Title__Backend'>Backend</h2> 
                 </div>
+                <div></div>
                     <ul className='Content__Backend'>
                         <li><img src={require('../Images/asp.net.png')} title='Asp.Net' height = '50' width='50' alt= 'Asp.Net'></img></li>
                         <li><img src={require('../Images/ef.png')} title= 'Entity Core' width='60' height='40' alt= 'Entity Core'></img></li>

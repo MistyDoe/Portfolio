@@ -264,16 +264,23 @@ h2{
     font-size: larger;
   }
   .Content__Backend{
+    margin-top: 5vh;
     display: grid;
     grid-template-columns: auto auto auto auto;
+  }
+  .Title__Backend{
+    margin-top: -11vh;
   }
   .Proj__Bttn{
     width: 80vw;
   }
-  .circle {
-    display: none;
+  .circle{
+    background-color: transparent;  
   }
-  
+  h2{
+    margin-left: 3vh;
+    margin-top: -8vh;
+  }
   .Content__text, .Proj__text{
     font-size: 15px;
     text-align: center;

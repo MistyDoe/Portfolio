@@ -81,7 +81,19 @@ color: #FFFFFF;
   padding: auto;
   border-radius: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+.Img__cats{
+  display:none;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+
+}
+.Cat__names:hover + .Img__cats{
+  display: block;
+
 }
 .Content__Tech{
   margin-left: auto;

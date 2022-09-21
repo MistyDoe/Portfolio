@@ -6,8 +6,9 @@
 }
 body{
   background-color: #b1bbc8;
-  min-width: -webkit-fill-available; 
+  min-width: 99vw; 
   margin: 0px;
+  position: relative;
 }
 .banner {
   min-width: 100vw ; 
@@ -16,7 +17,7 @@ body{
 }
 
 .banner__Bg{
- min-width: 100vw;
+ max-width: 100vw;
  max-height:35vh;
  min-height: 35vh;
 } 
@@ -42,7 +43,7 @@ body{
   font-size: 20px;
 }
 .NavigationBar{
-  min-width: 100vh;
+  min-width: 100vw;
   max-height: 15vh;
   display: flex;
   min-height: 6vh;
@@ -72,19 +73,15 @@ color: #FFFFFF;
  min-width: 80vw;
  max-width: 90vw;
 }
-.Layout__Tech{
 
-}
 .Content{
   width: 60vw;
   margin-top: 1vh;
   background-color: #8C9BAE;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left: 5vw;
-  padding-right: 3vw;
+  padding: auto;
   border-radius: 20px;
   display: flex;
+  justify-content: center;
 }
 .Content__Tech{
   margin-left: auto;
@@ -178,6 +175,7 @@ h2{
   margin-top: 1vh;
   min-width: 20px;
   text-align: center;
+  align-items: center;
   
 }
 .bttn:visited{
@@ -199,29 +197,41 @@ h2{
   display: flex;
   flex-direction: row;
 }
+.Proj__Content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
 .Proj__text{
   max-width: 70vw;
-  margin-top: 3vh;
-  margin-left: 2vw;
   color: #FFFFFF;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.Proj__bttn{
+.Proj__Bttn{
   display: flex;
   flex-direction: row;
-  margin: auto;
-  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
 }
 
-@media screen and (max-width:480px) { 
+@media screen and (max-width:600px) { 
   .banner__Text {
     font-size: 15px;
   }
-  .banner {
-    min-width: max-content;
+  .banner__Bg{
+    min-width: 100vw;
   }
+  .banner {
+    min-width: 100vw;
+  }
+  
   .NavigationBar {
-    min-width: max-content;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -229,19 +239,24 @@ h2{
   .NavigationBar__NavButton{
     max-width: 23vw;
     font-size: 17px;
-
+  }
+  .Outline{
+    align-content: center;
   }  
   .Content {
-    min-width: 90vw;
-  
+    min-width: 85vw;
+    align-items: center; 
   }
   .Content__text {
-    max-width: 90vw;
+    max-width: 80vw;
+    font-size: larger;
   }
   .Content__Backend{
     display: grid;
     grid-template-columns: auto auto auto auto;
-
+  }
+  .Proj__Bttn{
+    width: 80vw;
   }
   .circle {
     display: none;
@@ -250,6 +265,9 @@ h2{
   .Content__text, .Proj__text{
     font-size: 15px;
     text-align: center;
+  }
+  .bttn, .Proj__bttn{
+    align-items: center;
   }
 
 } 

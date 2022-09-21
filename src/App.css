@@ -240,6 +240,7 @@ h2{
   }
   .banner {
     min-width: 100vw;
+    max-height: 20vh;
   }
   
   .NavigationBar {
@@ -263,6 +264,10 @@ h2{
     max-width: 80vw;
     font-size: larger;
   }
+  .Tech__Titles{
+    margin-top: -7vh;
+    margin-left: 5vw;
+  }
   .Content__Backend{
     margin-top: 5vh;
     display: grid;
@@ -270,6 +275,7 @@ h2{
   }
   .Title__Backend{
     margin-top: -11vh;
+    margin-left: 5vw;
   }
   .Proj__Bttn{
     width: 80vw;
@@ -277,9 +283,8 @@ h2{
   .circle{
     background-color: transparent;  
   }
-  h2{
-    margin-left: 3vh;
-    margin-top: -8vh;
+  .Title__AboutMe {
+   display: none;
   }
   .Content__text, .Proj__text{
     font-size: 15px;
@@ -290,6 +295,5 @@ h2{
   }
 
 } 
-@media screen and (min-width: 1200px){
-  
+@media screen and (min-width: 1200px){  
 }

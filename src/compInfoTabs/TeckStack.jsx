@@ -1,5 +1,3 @@
-
-import Banner from '../compStatic/Banner';
 const TechStack = () => {
 
     return (
@@ -8,7 +6,7 @@ const TechStack = () => {
         <div className='Layout Layout__tech'>
             <div className='Content__Tech'>
             <div className='circle'>
-                <h2>Languages</h2> 
+                <h2 className='Tech__Titles'>Languages</h2> 
                 </div>
                 <ul className='Content__Languages'>                  
                     <li><img src={require( "../Images/c-sharp.png")} title = 'C#' alt= "C#"></img></li>
@@ -18,7 +16,7 @@ const TechStack = () => {
                     </div>
                     <div className='Content__Tech'>
                     <div className='circle'>
-                <h2>Frontend</h2>
+                <h2 className='Tech__Titles'>Frontend</h2>
                 </div>
                 <ul className='Content__Frontend'>
                     <li><img src= {require("../Images/react.png" )} title= 'React' alt = 'React'></img></li>
@@ -38,16 +36,12 @@ const TechStack = () => {
                         <li><img src={require('../Images/SkLearn.png')} title= 'SciKitLearn' height='50' width='50' alt= 'SkLearn'></img></li>
                         <li><img src={require('../Images/numpy.png')} title = 'NumPy' alt= 'NumPy'></img></li>
                         <li><img src={require('../Images/pandas.png')} title = 'Pandas' alt= 'Pandas'></img></li>
-                        <li><img src={require('../Images/tensorflow.png')} title = 'TensorFlow' alt= 'Tensorflow'></img></li>
-                        
-                   
-                    </ul>
-                        
+                        <li><img src={require('../Images/tensorflow.png')} title = 'TensorFlow' alt= 'Tensorflow'></img></li>                  
+                    </ul>                      
                     </div>
-
                     <div className='Content__Tech'>
                     <div className='circle'>
-                <h2>Other</h2> 
+                <h2 className='Tech__Titles'>Other</h2> 
                 </div>
                     <ul className='Content__Other'>
                     <li><img src={require('../Images/github.png')} title= 'GitHub' height = '40' width='40' alt= 'GitHub'></img></li>

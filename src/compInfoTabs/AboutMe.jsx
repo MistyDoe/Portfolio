@@ -14,9 +14,9 @@ const AboutMe = () => {
            HI! <br/>
            My name is Migle and I am a Full stack .Net developer based in Sweden.         
 I am from Södertälje, where I live with my partner and two adorable kittens.
-Recently graduated from the full stack .Net boot-camp offered by Salt. 
+I recently graduated from the full stack .Net boot-camp offered by <a href='https://www.salt.study/our-hubs/stockholm' > Salt </a>. 
 <br/>
-I have degrees in  infectious disease control, health informatics, bioinformatics, and public health.Through my studies, I developed an interest in mathematics and machine learning.<br/>
+I have degrees in  infectious disease control, health informatics, bioinformatics, and public health. Through my studies I developed an interest in mathematics and machine learning.<br/>
 Nowadays I am continuously improving my skill set as a developer, in machine learning, and data sciences.
            </p><br/>
         <div className='Proj__Bttn'>

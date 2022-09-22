@@ -6,6 +6,7 @@ import AboutMe from './compInfoTabs/AboutMe';
 import TechStack from './compInfoTabs/TeckStack';
 import Projects from './compInfoTabs/Projects';
 import ContactMe from './compInfoTabs/ContactMe';
+import Landing from './compInfoTabs/Landing';
 
 
 
@@ -16,7 +17,7 @@ function App() {
     <div className='Outline'> 
             <Routes>
                 <Route exact path = "/aboutme" element= {<AboutMe/>}/>              
-                <Route exact path = "/Porfolio/" element = {<AboutMe/>}/>,
+                <Route exact path = "/" element = {<Landing/>}/>,
                 <Route exact path = "/aboutme" element = {<AboutMe/>}/>,
                 <Route exact path = "/teckstack" element = {<TechStack/> }/>,
                 <Route exact path = "/projects" element = {<Projects/>}/>,

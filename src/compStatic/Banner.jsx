@@ -25,9 +25,7 @@ const Banner = () => {
             <Link to = "/teckstack" className='NavigationBar__NavButton' > Teck Stack</Link>          
             <Link to = "/projects" className='NavigationBar__NavButton'> Projects</Link>            
             <Link to = "/contactme" className='NavigationBar__NavButton'> Contact Me</Link>          
-         </nav>
-                  
-        
+         </nav>                       
         </header>
         </>
             );

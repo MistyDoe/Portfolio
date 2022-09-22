@@ -25,8 +25,8 @@ const TechStack = () => {
                     </ul>
                 </div>
                 <div className='Content__Tech'>
-                <div className='circle circle__Tech'>
-                <h2 className='Title__Backend'>Backend</h2> 
+                <div className='circle circle__Backend'>
+                <h2 className='Tech__Titles'>Backend</h2> 
                 </div>
                 <div></div>
                     <ul className='Content__Backend'>

@@ -24,7 +24,6 @@ Nowadays I am continuously improving my skill set as a developer, in machine lea
         <a className='bttn' href="https://docs.google.com/document/d/1L6FyANTqxvjJYX_iZmYmXdqS9i6oPJ0PaIaHmRqSiYo/edit?usp=sharing'" target="_blank">Cv</a>
             </div>      
         </div>
-
         </div>
         </>
 

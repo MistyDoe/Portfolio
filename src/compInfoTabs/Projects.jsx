@@ -7,7 +7,7 @@ const Projects = () => {
         <>
      
         <div className='Layout'>
-        <div className='Content'>
+        <div className='Content Content__Proj'>
         <div className='circle circle__Proj '>
                 <h2 className='Title__AboutMe'>Student portal</h2> 
                 </div>
@@ -20,7 +20,7 @@ A student portal to provide access to all the resources. Authentication is done 
                 </div>                       
            </div>
         </div> 
-        <div className='Content'>
+        <div className='Content Content__Proj'>
         <div className='circle circle__Proj '>
                 <h2 className='Title__AboutMe'>Portfolio page</h2> 
                 </div>

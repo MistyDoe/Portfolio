@@ -2,16 +2,8 @@ import { React } from 'react';
 import bannerImg from '../Images/banner.png';
 import bannerPic from '../Images/pic.png';
 import '../App.css';
-import {BrowserRouter as Router , Route, Routes, Switch, Navigate} from 'react-router-dom';
-import AboutMe from '../compInfoTabs/AboutMe';
-import TechStack from '../compInfoTabs/TeckStack';
-import Projects from '../compInfoTabs/Projects';
-import ContactMe from '../compInfoTabs/ContactMe';
-
 import { Link } from 'react-router-dom';
 import '../App.css';
-
-
 
 const Banner = () => { 
     

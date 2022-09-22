@@ -1,122 +1,172 @@
-.Outline {
-  display: flex;
+ 
+  body{
+    background-color: #b1bbc8;
+    min-width: 99vw; 
+    margin: 0px;
+    position: relative;
+  }
+  
+  .banner {
+    min-width: 100vw;
+    max-height: 20vh;
+  }
+  
+  .banner__Bg{
+    max-width: 100vw;
+    height:26vh;
+    min-width: 100vw;
+  } 
+
+  .banner__PicText{
+    max-height: 19vh;
+    min-height: 10vh;
+    position: absolute;
+    top: 1vh;
+    width: 99vw;
+    height: 20vh;
+    display: flex;
     flex-direction: row;
-    align-content: flex-end;
     justify-content: center;
-}
-body{
-  background-color: #b1bbc8;
-  min-width: 99vw; 
-  margin: 0px;
-  position: relative;
-}
-.banner {
-  min-width: 100vw ; 
-  max-height: 35vh;
-  min-height: 35vh;
+  }
+
+  .banner_Pic{
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+  }
+  .banner__Text {
+    position: absolute;
+    top: 16vh;
+    text-align: center;
+    color: #536e8f;
+    font-weight: bold;
+    font-size: 17px;
+  }
+ 
+  .NavigationBar{
+    min-width: 100vw;
+    max-height: 15vh;
+    display: flex;
+    min-height: 6vh;
+    justify-content:space-evenly;
+    align-items: stretch;
+    background-color: #9897ad;
+    font-weight: bolder;
+    flex-direction: row;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+  }
+  
+  .NavigationBar__NavButton{
+    text-align:center;
+    margin-top: 1vh;
+    background-color: #9897ad;
+    border: #9897ad;
+    width: 20%;
+    text-decoration: none;
+    color: #FFFFFF;
+    max-width: 23vw;
+    font-size: 17px;
+  } 
+  .NavigationBar__NavButton:hover{
+    background-color: #8C9BAE;
+  }
+  .Outline{
+    align-content: center;
+  }  
+  .Layout{
+    margin-top: 17vh;
+    max-width: 90vw;
+    margin-left: 5vw;
+  }
+  .Content {
+    width: 85vw;
+    align-items: center; 
+    background-color: #8C9BAE;
+    padding: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1vh;
+  }
+.Content__text {
+  max-width: 70vw;
+  margin-top: 3vh;
+  color: #FFFFFF;
+  font-size: 25px;  
+  max-width: 80vw;
+  font-size: larger;
 }
 
-.banner__Bg{
- max-width: 100vw;
- max-height:35vh;
- min-height: 35vh;
-} 
-
-.banner__PicText{
-  max-height: 17vh;
-  min-height: 10vh;
-  position: absolute;
-  top: 5vh;
-  width: 99vw;
-  height:20vh;
+.Proj__Bttn{
+  width: 80vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.banner__Text{
-  position: absolute;
-  top: 17vh;
+.circle{
+  background-color: transparent;  
+}
+
+.Title__AboutMe {
+  display: none;
+}
+
+.Content__text, .Proj__text{
+  font-size: 15px;
   text-align: center;
-  color: #536e8f;
-  font-weight: bold;
-  font-size: 20px;
-}
-.NavigationBar{
-  min-width: 100vw;
-  max-height: 15vh;
-  display: flex;
-  min-height: 6vh;
-  justify-content:space-evenly;
-  align-items: stretch;
-  background-color: #9897ad;
-  font-weight: bolder;
-  flex-direction: row;
-}
-.NavigationBar__NavButton{
-text-align:center;
-font-size: 30px;
-margin-top: 1vh;
-background-color: #9897ad;
-border: #9897ad;
-width: 20%;
-text-decoration: none;
-color: #FFFFFF;
-}
-.NavigationBar__NavButton:hover{
-  background-color: #8C9BAE;
-}
-.Layout{
- display: flex;
- margin-top: 10vh;
- flex-direction: column;
- min-width: 80vw;
- max-width: 90vw;
 }
 
-.Content{
-  width: 60vw;
-  margin-top: 1vh;
-  background-color: #8C9BAE;
-  padding: auto;
-  border-radius: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.bttn{
+  background-color: #536e8f;
+  border: #536e8f;
+  color: #D9D9D9;
+  min-width: 20px;
+  display: inline-block;
+  text-decoration: none;
+  z-index: 2;
+  padding: 1vh;
+  margin: 1vh;
+  width: 20vh;
+  text-align: center;
 }
-.Img__cats{
-  display:none;
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-
-}
-.Cat__names:hover + .Img__cats{
-  display: block;
-
+.bttn:visited{
+  text-decoration: none;
 }
 .Content__Tech{
   margin-left: auto;
   margin-right: auto;
   margin-top: 1vh;
   background-color: #8C9BAE;
-  padding-top: 2vh;
+  padding-top: 1vh;
   padding-bottom: 2vh;
   padding-left: 5vw;
   padding-right: 3vw;
   border-radius: 20px;
   display: flex;
   align-items: center;
+}
+
+.Tech__Titles{
+  font-size: 19px;
+  text-align: center;
+  margin: auto;
+  margin-top: -5vh;
+  color: #D9D9D9;
+}
+
+.Title__Backend{
+  text-align: center;
+  font-size: 19px;
+  margin-top: -8.5vh;
+  margin-left: -0.5vw;
+  color: #D9D9D9;
 
 }
-.Content__text{
-  max-width: 70vw;
-  margin-top: 3vh;
-  
-  color: #FFFFFF;
-  font-size: 25px;
-  
-}
+
 .Content__Languages, .Content__Frontend, 
 .Content__Backend, .Content__Other{
   display: flex;
@@ -126,95 +176,24 @@ color: #FFFFFF;
   text-align: center;
   list-style-type: none;
 }
-
-.circle{
-  margin-left: -8vw;
-  border-radius: 50%;
-  height: 10vw;
-  width: 10vw;
-  background-color: #D9D9D9;
-  
-
-}
-.circle::after{
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-.circle__Abtme{
-  margin-left: -8vw;
-  margin-top: 6vh ;
-  margin-bottom: 6vh;
-  border-radius: 50%;
-  height: 10vh;
-  width: 20vh;
-  background-color: #D9D9D9;
+.Content__Backend{
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
-h2{
-  text-align: center;
-  padding-top: 4vh;
-  font-size: 18px;  
-}
-.Title__AboutMe{
-  padding-top: 2vh;
-  font-size: 20px;
-  
-}
-.circle__Cont{
-  margin-top: 4vh;
-  margin-left: -7vw;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  background-color: #D9D9D9;  
-}
-.circle__Proj{
-  margin-top: 4vh;
-  height: 100px;
-  width: 150px;
-}
-.Content__bttn{
-  display: flex;
-  flex-direction: column;
-  margin-left: 2vw;
-  text-align: center;
-}
-.bttn{
-  background-color: #536e8f;
-  border: #536e8f;
-  color: #D9D9D9;
-  margin-top: 1vh;
-  min-width: 20px;
-  text-align: center;
-  align-items: center;
-  
-}
-.bttn:visited{
-  text-decoration: none;
-}
-.bttn{
-  display: inline-block;
-  text-decoration: none;
-  z-index: 2;
-  padding: 1vh;
-  margin: 1vh;
-  width: 20vh;
-  font-size: 20px;
-}
-.Content__Email{
-  display: block;
-}
 .Layout__Proj{
   display: flex;
   flex-direction: row;
 }
+
 .Proj__Content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
+
 .Proj__text{
   max-width: 70vw;
   color: #FFFFFF;
@@ -222,78 +201,189 @@ h2{
   display: flex;
   justify-content: center;
   align-content: center;
+  padding-left: 6vw;
 }
+
 .Proj__Bttn{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
 }
-
-@media screen and (max-width:600px) { 
-  .banner__Text {
-    font-size: 15px;
+@media screen and (min-width: 770px)
+{
+  .banner{
+    height: 30vh;
+  }
+  .banner_Pic{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
   }
   .banner__Bg{
-    min-width: 100vw;
+    height: 30vh;
   }
-  .banner {
-    min-width: 100vw;
-    max-height: 20vh;
-  }
-  
-  .NavigationBar {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-  }
-  .NavigationBar__NavButton{
-    max-width: 23vw;
-    font-size: 17px;
-  }
-  .Outline{
-    align-content: center;
-  }  
-  .Content {
-    min-width: 85vw;
-    align-items: center; 
-  }
-  .Content__text {
-    max-width: 80vw;
-    font-size: larger;
-  }
-  .Tech__Titles{
-    margin-top: -7vh;
-    margin-left: 5vw;
-  }
-  .Content__Backend{
-    margin-top: 5vh;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-  }
-  .Title__Backend{
-    margin-top: -11vh;
-    margin-left: 5vw;
-  }
-  .Proj__Bttn{
-    width: 80vw;
-  }
-  .circle{
-    background-color: transparent;  
-  }
-  .Title__AboutMe {
-   display: none;
-  }
-  .Content__text, .Proj__text{
-    font-size: 15px;
-    text-align: center;
-  }
-  .bttn, .Proj__bttn{
-    align-items: center;
+  .banner__Text{
+    top: 18vh;
+    font-size: 19px;
   }
 
-} 
-@media screen and (min-width: 1200px){  
+  .NavigationBar__NavButton{
+    font-size: 22px;
+  }
+
+  .circle{
+    margin-left: -6vw;
+    border-radius: 50%;
+    height: 8vw;
+    width: 8vw;
+    margin-top: 4vh;
+    background-color: #D9D9D9;
+  }
+
+  .Title__AboutMe{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: #536e8f;
+  }
+
+  .Layout{
+    display: flex;
+    margin-top: 18vh;
+    flex-direction: column;
+    margin-left: 8vw;
+    width: 90vw;
+  }
+
+  .Content{
+    width: 60vw;
+    margin-top: 1vh;
+    
+  }
+
+  .circle__Proj{
+    margin-top: 4vh;
+    height: 100px;
+    width: 150px;
+  }
+
+  .Content__bttn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    text-align: center;
+  }
+
+  .bttn{
+    display: inline-block;
+    text-decoration: none;
+    z-index: 2;
+    padding: 1vh;
+    margin: 1vh;
+    width: 20vh;
+    font-size: 20px;
+  }
+  .Content__Tech{
+    padding-top: 0vh;
+    padding-bottom: 3vh;
+  }
+  .circle__Tech{
+    margin-left: -9vw;
+  }
+  .Tech__Titles{
+    font-size: 19px;
+      text-align: center;
+      margin: auto;
+      margin-top: 4.5vh;
+      color: #536e8f;
+  }
+  .Title__Backend{
+    color: #536e8f;
+    margin-top: 4.5vh;
+  }
+  .Proj__text{
+    padding-bottom: 1vh;
+    padding-top: 2vh;
+  }
+  .Proj__Bttn{
+    width: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .circle__Proj {
+    margin-top: 1vh;
+    height: 9vw;
+    width: 9vw;
+  }
+  .Content__Email{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1000px){  
+}
+@media screen and (min-width: 1200px){
+  .Layout{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25vw;
+  }
+  .banner__Text{
+    font-size:74px;
+  }
+  .NavigationBar__NavButton{
+    font-size: 105px;
+  }
+  .NavigationBar__NavButton{
+    font-size: 86px;
+  }
+  .Content__text{
+    font-size: 64px;
+    text-align: center;
+    max-width: 45vw;
+    margin-right: -25vw;
+    margin-left: 2vw ;
+  }
+  .Title__AboutMe{
+    margin-top: 4.5vh;
+    margin-left: 0.5vw;
+    font-size: 98px;
+  }
+  .circle{
+    margin-left: -40vw;
+  }
+  .bttn{
+    font-size: 60px;
+  }
+  .circle__Tech{    
+    margin-left: -24vw;
+  }
+  .Tech__Titles{
+    font-size: 74px;
+  }
+  .Title__Backend{
+    font-size:74px;
+  }
+  .Icon{
+    width: 200px;
+    height: 200px;
+  }
+  .Icon_W{
+    width: 350px;
+    height: 200px;
+  }
+  .Layout__tech{
+    margin-left: 6vw;
+  }
+  .Content__Tech{
+    Flex-direction: row;
+    width: 11vw;
+    padding-left: 20vw;
+    padding-right: 0vw;
+    BORDER-RADIUS: 75PX;
+    inline-size: max-content;
+  }
+  
 }

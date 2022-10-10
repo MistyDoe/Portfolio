@@ -5,9 +5,7 @@ const Landing = () => {
 		<>
 			<section className="ContentBox Landing">
 				<header className="Title">
-					<div className="Bubble">
-						HI! 
-                        </div>
+					<div className="Bubble">HI!</div>
 				</header>
 				<p className="Text">
 					{" "}
@@ -17,9 +15,7 @@ const Landing = () => {
 			</section>
 			<section className="ContentBox Landing">
 				<header className="Title">
-					<div className=" Bubble BubbleMultLines">
-						Working On:
-                        </div>
+					<div className=" Bubble BubbleMultLines">Working On:</div>
 				</header>
 
 				<div className="CurrentlyWorking Landing"></div>
@@ -34,14 +30,11 @@ const Landing = () => {
 			</section>
 			<section className="ContentBox Landing">
 				<header className="Title">
-					<div className="Bubble BubbleMultLines">
-						 My Work: 
-					</div>
+					<div className="Bubble BubbleMultLines">My Work:</div>
 				</header>
 				<div className="Carousel__Proj"></div>
 				<ul className="List__Proj">
-					<li>
-					</li>
+					<li></li>
 				</ul>
 			</section>
 		</>

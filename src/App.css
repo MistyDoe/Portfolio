@@ -121,6 +121,7 @@
    max-width: 80vw;
    font-size: larger;
  }
+
  li {
    list-style: none;
  }
@@ -144,33 +145,38 @@
  .bttn:visited {
    text-decoration: none;
  }
- .ContentList{
-  display: flex;
-  flex-direction: row;
+
+ .ContentList {
+   display: flex;
+   flex-direction: row;
  }
- 
+
 
  @media screen and (min-width: 700px) {
    .banner__Text {
      font-size: 15px;
    }
+
    .NavigationBar__NavButton {
      font-size: 25px;
    }
-   .ContentBox{
-    width: 80vw;
-    margin-top: 8vh;
+
+   .ContentBox {
+     width: 80vw;
+     margin-top: 8vh;
    }
-   .TechStack{
-    max-width: 49vw;
+
+   .TechStack {
+     max-width: 49vw;
    }
-   .ContentList{
-    padding-left: 1vw;
+
+   .ContentList {
+     padding-left: 1vw;
    }
-   
-   .Title{
-    border: none;
-    background-color: transparent;
+
+   .Title {
+     border: none;
+     background-color: transparent;
    }
 
    .Bubble {
@@ -186,31 +192,37 @@
    }
 
    .BubbleMultLines {
-    line-height: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+     line-height: 35px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
    }
+
    .bttn {
      font-size: 20px;
-   } 
-   .AboutMe{
-    padding-left: 25px;
-    padding-right: 25px;
-   }  
+   }
+
+   .AboutMe {
+     padding-left: 25px;
+     padding-right: 25px;
+   }
  }
- @media screen and (min-width: 1200px){
-.ContentBox{
-  max-width: 50vw;
-}
-.TechStack{
-  max-width: 30vw;
-}
-.Landing{
-  max-width: 40vw;
-}
-.AboutMe{
-  padding-left: 25px;
-  padding-right: 25px;
- }
+
+ @media screen and (min-width: 1200px) {
+   .ContentBox {
+     max-width: 50vw;
+   }
+
+   .TechStack {
+     max-width: 30vw;
+   }
+
+   .Landing {
+     max-width: 40vw;
+   }
+
+   .AboutMe {
+     padding-left: 25px;
+     padding-right: 25px;
+   }
  }

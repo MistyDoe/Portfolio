@@ -1,12 +1,36 @@
-
 const Projects = () => {
 	return (
 		<>
 			<section className="ContentBox">
 				<header className="Title">
-					<div className="Bubble BubbleMultLines">
-						 Student Portal
+					<div className="Bubble" id="Portfolio">
+						Portfolio
 					</div>
+				</header>
+				<div className="Content">
+					<div>
+						<p className="Text">
+							{" "}
+							A website for me to show my work in a centralized manner.
+							Developed using React and hosted using GitHub pages. Contact from
+							uses EmailJS.{" "}
+						</p>
+						<div className="Content__Bttns">
+							<a
+								className="bttn"
+								href="https://github.com/MistyDoe/Portfolio"
+								target="_blank"
+								rel="noreferrer"
+							>
+								GitHub
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className="ContentBox">
+				<header className="Title">
+					<div className="Bubble BubbleMultLines">Student Portal</div>
 				</header>
 				<div className="Content">
 					<p className="Text">
@@ -21,7 +45,7 @@ const Projects = () => {
 							className="bttn"
 							href="https://github.com/cetinarslan-it/Salt-Iverse"
 							target="_blank"
-              rel="noreferrer" 
+							rel="noreferrer"
 						>
 							GitHub
 						</a>
@@ -29,41 +53,13 @@ const Projects = () => {
 							className="bttn"
 							href="https://youtu.be/2B3mXdnSOKU"
 							target="_blank"
-              rel="noreferrer" 
+							rel="noreferrer"
 						>
 							Demo
 						</a>
 					</div>
 				</div>
 			</section>
-      <section className="ContentBox">
-
-			<header className="Title">
-					<div className="Bubble">
-						 Portfolio
-					</div>
-				</header>
-				<div className="Content">
-					<div>
-						<p className="Text">
-							{" "}
-							A website for me to show my work in a centralized manner.
-							Developed using React and hosted using GitHub pages. Contact from uses EmailJS.{" "}
-						</p>
-						<div className="Content__Bttns">
-							<a
-								className="bttn"
-								href="https://github.com/MistyDoe/Portfolio"
-								target="_blank"
-                rel="noreferrer" 
-							>
-								GitHub
-							</a>
-						</div>
-					</div>
-				</div>
-			
-      </section>
 		</>
 	);
 };

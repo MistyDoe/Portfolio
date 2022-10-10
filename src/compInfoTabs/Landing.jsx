@@ -21,7 +21,7 @@ const Landing = () => {
 				<div className="CurrentlyWorking Landing"></div>
 				<ul className="ListWorking">
 					<li>
-						<Link to="/projects" className="bttn">
+						<Link to="/projects#Portfolio" className="bttn">
 							{" "}
 							Portfolio website
 						</Link>{" "}

@@ -10,13 +10,13 @@ const Banner = () => {
     return (
         <>
         <header className='banner'>
-            <img src = {bannerImg} className= 'banner__Bg'/>
+            <img src = {bannerImg} className= 'banner__Bg' alt='Banner '/>
             <div className= 'banner__PicText'>          
-                <img src = {bannerPic} className= 'banner_Pic'  /> 
+                <img src = {bannerPic} className= 'banner_Pic' alt='Foto of me'  /> 
                 <div className='banner__Text'>
                     Hi! <br />
                     My name is Migle <br/>  
-                    I am a software developer.
+                    I am a software developer that likes to build things. &#129302;
                 </div>
             </div>                           
         

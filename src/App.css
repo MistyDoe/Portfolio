@@ -72,6 +72,7 @@
 
  .NavigationBar__NavButton:hover {
    background-color: #b1bbc8;
+   text-decoration: none;
  }
 
  .bttn {
@@ -145,12 +146,48 @@
  .bttn:visited {
    text-decoration: none;
  }
+ .bttn:hover{
+text-decoration: none;
+ }
 
  .ContentList {
    display: flex;
    flex-direction: row;
  }
+.ProjImage{
+  width: 100px;
+  height: 100px;
+}
+.MyWork{
+  padding-bottom: 3vh;
+}
+.swiper {
+  width: 240px;
+  height: 300px;
+}
 
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  border: 3px solid #D9D9D9;
+  border-width:  2px;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: #8C9BAE;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: #536e8f;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color:  #b1bbc8;
+}
 
  @media screen and (min-width: 700px) {
    .banner__Text {

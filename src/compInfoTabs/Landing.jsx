@@ -1,4 +1,9 @@
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
+import "swiper/css";
+import "swiper/css/effect-cards";
+import { EffectCards } from "swiper";
+
 
 const Landing = () => {
 	return (
@@ -28,14 +33,41 @@ const Landing = () => {
 					</li>
 				</ul>
 			</section>
-			<section className="ContentBox Landing">
+			<section className="ContentBox Landing MyWork">
 				<header className="Title">
 					<div className="Bubble BubbleMultLines">My Work:</div>
 				</header>
-				<div className="Carousel__Proj"></div>
-				<ul className="List__Proj">
-					<li></li>
-				</ul>
+				<div className="Carousel">
+					<Swiper
+						 effect={"cards"}
+						 grabCursor={true}
+						 modules={[EffectCards]}
+						 className="swiper"
+					>
+						<SwiperSlide>
+							<div className="Slide">
+						<img
+							className="ProjImage"
+							src={require("../Images/Porfolio.png")}
+							title="Portfolio Page"
+							alt="Portfolio page"
+						></img>
+						<div className="Text"> Portfolio page</div>
+							</div>
+						</SwiperSlide>
+						<SwiperSlide>
+							<div className="Slide">
+						<img
+							className="ProjImage"
+							src={require("../Images/Student.png")}
+							title="Student Portal"
+							alt="Student Portal"
+						></img>
+						<div className="Text"> Student Portal</div>
+							</div>
+						</SwiperSlide>					
+					</Swiper>
+				</div>
 			</section>
 		</>
 	);

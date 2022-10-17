@@ -188,6 +188,18 @@ text-decoration: none;
 .swiper-slide:nth-child(3n) {
   background-color:  #b1bbc8;
 }
+.ListWorking{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+.Form__field{
+  width: 50vw;
+  height: 15px;
+}
+.Form__Msg{
+  width: 50vw;
+}
 
  @media screen and (min-width: 700px) {
    .banner__Text {
@@ -262,4 +274,11 @@ text-decoration: none;
      padding-left: 25px;
      padding-right: 25px;
    }
+   .Form__field{
+    width: 30vw;
+    height: 20px;
+  }
+  .Form__Msg{
+    width: 30vw;
+  }
  }

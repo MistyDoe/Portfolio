@@ -31,42 +31,42 @@ const ContactMe = () => {
 				<header className="Title">
 					<div className="Bubble BubbleMultLines">Contact Form</div>
 				</header>
-				<form ref={form} onSubmit={sendEmail}>
+				<form className="Form" ref={form} onSubmit={sendEmail}>
 					<div className="Text">
-						<label for="name">Name</label>
+						<label for="name">Name</label><br/>
 						<input
 							type="name"
 							name="name"
-							class="form-control"
+							class="Form__field"
 							id="name"
 							placeholder="enter your name"
 						/>
 					</div>
 
 					<div className="Text">
-						<label for="email">Email address</label>
+						<label for="email">Email address</label><br/>
 						<input
 							type="email"
 							name="email"
-							class="form-control"
+							class="Form__field"
 							id="email"
 							placeholder="enter your email"
 						/>
 					</div>
 					<div className="Text">
-						<label for="subject">Subject</label>
+						<label for="subject">Subject</label><br/>
 						<input
 							type="text"
 							name="subject"
-							class="form-control"
+							class="Form__field"
 							id="subject"
 							placeholder="enter email subject"
 						/>
 					</div>
 
 					<div className="Text">
-						<label for="email_body">Message</label>
-						<textarea class="form-control" id="email_body" rows="5"></textarea>
+						<label for="email_body">Message</label><br/>
+						<textarea class="Form__Msg" id="email_body" rows="5"></textarea>
 					</div>
 
 					<button type="submit" class="bttn">

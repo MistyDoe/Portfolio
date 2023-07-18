@@ -7,9 +7,11 @@ const Projects = () => {
 	
 	return (
 		<>
-		<div>
+		<div >
 		{data.projects.map(project => (
+			<div className="ContentBox">
 			<Project project= {project}  />
+			</div>
 
 		))}
         

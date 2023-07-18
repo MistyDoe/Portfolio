@@ -6,7 +6,7 @@ const Project = ({project}) => {
         <div className="Bubble">
 		{project.name}
         </div>
-        <div className="ContentBox">
+        <div className="Text AboutMe">
         {project.description} 
         </div>
         <div className="Content__Bttns">

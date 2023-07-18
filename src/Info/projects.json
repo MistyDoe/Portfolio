@@ -1,15 +1,15 @@
 { "projects" :[
     {
         "name" : "Student Portal",
-        "description" : "Graduation project." ,
+        "description" : "The project was developed in two weeks using mob programming. This is a graduation project to finish the boot camp and showcase the skillset. It is a full-stack application for the student portal, to access the information and documents, and view grades. For the development, Asp.net Core + Entity was used for the back end, Auth0 for authentification, and React for the front end.    " ,
         "github" : "https://github.com/cetinarslan-it/Salt-Iverse ",
         "link" : "https://youtu.be/2B3mXdnSOKU"    
     },
     {
         "name" : "Portfolio",
-        "description" : "" ,
+        "description" : "A website to show my projects. Developed using React and hosted using github pages" ,
         "github" : "https://github.com/MistyDoe/Portfolio ",
-        "link" : ""    
+        "link" : "https://mistydoe.github.io/Portfolio/"    
     }
 
 ]
